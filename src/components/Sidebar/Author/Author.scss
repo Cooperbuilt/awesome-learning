@@ -2,20 +2,25 @@
 @import '../../../assets/scss/mixins';
 
 .author {
-  &__photo {
-    display: inline-block;
-    margin-bottom: 0;
-    border-radius: 50%;
-    background-clip: padding-box
+  &-icon {
+    height: 5em;
+    animation:spin 40s linear infinite;
+    fill: purple;
+  }
+  @keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+   }
   }
 
-  &__title {
-    font-size: $typographic-base-font-size * 1.125;
+  &-title {
+    font-size: $typographic-base-font-size * 1.5;
     font-weight: 600;
     @include line-height(1.125);
-    @include margin(.5, 0, .5, 0);
+    @include margin(1, 0, 1, 0);
 
-    &-link {
+    &--link {
       color: $color-base;
 
       &:hover,
@@ -27,7 +32,7 @@
 
   }
 
-  &__subtitle {
+  &-subtitle {
     color: $color-gray;
     @include line-height(1);
     @include margin-bottom(1)

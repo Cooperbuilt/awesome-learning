@@ -49,15 +49,11 @@ export const Sidebar = (props: Props) => (
             }
             author {
               name
-              photo
-              bio
+              description
               contacts {
-                twitter
-                telegram
+                twitter                
                 github
                 email
-                rss
-                vkontakte
               }
             }
           }
