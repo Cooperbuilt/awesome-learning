@@ -4,14 +4,7 @@
 .author {
   &-icon {
     height: 5em;
-    animation:spin 40s linear infinite;
     fill: purple;
-  }
-  @keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform:rotate(360deg);
-   }
   }
 
   &-title {
