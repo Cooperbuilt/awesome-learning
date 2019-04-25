@@ -2,8 +2,8 @@
 
 module.exports = {
   url: '',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Awesome Learning',
+  subtitle: 'Learning frontend, together',
   copyright: '© Awesome Learning™ All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
