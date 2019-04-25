@@ -19,7 +19,7 @@ const Author = ({ author, isIndex }) => (
         <Link className="author-title--link" to="/">{author.name}</Link>
       </h2>
     )}
-    <p className="author-subtitle">{author.bio}</p>
+    <p className="author-subtitle">{author.description}</p>
   </div>
 );
 

@@ -32,7 +32,7 @@ export const Author = () => (
           siteMetadata {
             author {
               name
-              bio
+              description
               contacts {
                 twitter
               }

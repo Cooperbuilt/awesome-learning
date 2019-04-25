@@ -10,17 +10,22 @@ module.exports = {
   googleAnalyticsId: '',
   menu: [
     {
-      label: 'Articles',
+      label: 'Courses',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'How-To',
+      path: '/pages/howTo'
+    },
+    {
+      label: 'Contribute',
       path: '/pages/contacts'
-    }
+    },
+    
   ],
   author: {
     name: 'Awesome Learning',
