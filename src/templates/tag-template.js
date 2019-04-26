@@ -39,7 +39,7 @@ const TagTemplate = ({ data, pageContext }) => {
     </Layout>
   );
 };
-
+// sort: { order: DESC, fields: [frontmatter___date] }
 export const query = graphql`
   query TagPage($tag: String, $postsLimit: Int!, $postsOffset: Int!) {
     site {
@@ -52,7 +52,7 @@ export const query = graphql`
         limit: $postsLimit,
         skip: $postsOffset,
         filter: { frontmatter: { tags: { in: [$tag] }, template: { eq: "post" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___date] }
+        
       ){
       edges {
         node {

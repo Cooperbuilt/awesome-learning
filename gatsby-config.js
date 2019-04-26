@@ -3,6 +3,7 @@
 const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
 
+// sort: { order: DESC, fields: [frontmatter___date] },
 module.exports = {
   siteMetadata: {
     url: siteConfig.url,
@@ -63,7 +64,6 @@ module.exports = {
               {
                 allMarkdownRemark(
                   limit: 1000,
-                  sort: { order: DESC, fields: [frontmatter___date] },
                   filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
                 ) {
                   edges {
