@@ -47,7 +47,7 @@ export const query = graphql`
         tagSlugs
       }
       frontmatter {
-        date
+        
         description
         tags
         title

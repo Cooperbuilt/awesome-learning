@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
-import Feed from '../components/Feed';
+import Courses from '../components/Courses';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 
@@ -28,7 +28,7 @@ const CategoryTemplate = ({ data, pageContext }) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
       <Page title={category}>
-        <Feed edges={edges} />
+        <Courses edges={edges} />
         <Pagination
           prevPagePath={prevPagePath}
           nextPagePath={nextPagePath}

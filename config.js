@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: '',
+  url: 'www.awesomelearning.com',
   title: 'Awesome Learning',
   subtitle: 'Learning frontend, together',
   copyright: '© Awesome Learning™ All rights reserved.',

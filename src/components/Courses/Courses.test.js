@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Feed from './Feed';
+import Courses from './Courses';
 
 describe('Feed', () => {
   const props = {
@@ -37,7 +37,7 @@ describe('Feed', () => {
   };
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Feed {...props} />).toJSON();
+    const tree = renderer.create(<Courses {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
