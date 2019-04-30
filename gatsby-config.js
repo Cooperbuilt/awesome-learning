@@ -79,7 +79,13 @@ module.exports = {
                         template
                         draft
                         description
-                        exerciseLinks
+                        exerciseLinks 
+                        timeToCompletion
+                        videoLink,
+                        readingLinks {
+                          link
+                          description
+                        }
                       }
                     }
                   }

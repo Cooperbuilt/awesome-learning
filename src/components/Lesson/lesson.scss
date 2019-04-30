@@ -2,6 +2,9 @@
 @import '../../assets/scss/mixins';
 
 .Lesson {
+  &-time {
+    font-weight: 800
+  }
   &-homeButton {
     display: block;
     max-width: 90px;

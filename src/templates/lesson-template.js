@@ -50,7 +50,13 @@ export const query = graphql`
         description
         tags
         title
-        exerciseLinks
+        exerciseLinks 
+        timeToCompletion
+        videoLink,
+        readingLinks {
+          link 
+          description
+        }
       }
     }
   }

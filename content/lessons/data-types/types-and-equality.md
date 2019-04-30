@@ -11,18 +11,21 @@ tags:
   - "Comparisons"
   - "Debugging"
   - "Refactoring"
-description: "The focus of this course is to make you familiar with the nuance of the JavaScript Data Types. A little hazy on passing objects by reference? Not sure why your number is coercing to a string? Not sure what coercion is? Then this is the topic for you. Feel at home with the data types and how to make them do what you want by the end of this course"
-exerciseLinks: https://codesandbox.io/s/y3y2jnkl6j?fontsize=14&module=%2Fsrc%2Fexercises%2F1-types.test.js&previewwindow=tests 
----
-
-**⌛ Average time to completion = 1-3 hours ⌛**
-
+description: "
 By the end of this session you will learn about all of the available 'Types' in
 the language and the differences between == (loose equality) and === (strict equality) operators. 
-
 We will also learn the important differences between
-_Primitive_ and _Object_ types and how type coercion works. 
+_Primitive_ and _Object_ types and how type coercion works."
+exerciseLinks: https://codesandbox.io/s/y3y2jnkl6j?fontsize=14&module=%2Fsrc%2Fexercises%2F1-types.test.js&previewwindow=tests 
+timeToCompletion: "1-3 hours"
+videoLink: "youtube.com"
+readingLinks: 
+  - link: "www.google.com"
+    description: "this is google.com"
+  - link: "www.amazon.com"
+    description: "this is amazon man"
 ---
+
 
 
 ## Pre-Session Learning Materials (required)
