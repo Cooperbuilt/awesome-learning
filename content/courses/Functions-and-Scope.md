@@ -2,7 +2,7 @@
 title: Functions and Scope
 template: "post"
 draft: false
-slug: "/courses/functions-and-scope/"
+slug: "/courses/Functions-and-Scope/"
 category: "JS Fundamentals"
 tags:
   - "Refactoring"

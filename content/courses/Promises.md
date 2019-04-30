@@ -2,7 +2,7 @@
 title: Promises
 template: "post"
 draft: false
-slug: "/courses/promises/"
+slug: "/courses/Promises/"
 category: "Async JS"
 tags:
   - "Promises"
