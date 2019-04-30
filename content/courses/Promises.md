@@ -23,6 +23,6 @@ description: "Asynchronous programming patterns are the cornerstone of Frontend.
 
 2.  [Advanced Promises](Session-2-Advanced-Promises)
 
-    -   This session is a practical guide to utlizing Promises. We will take all
+    -   This session is a practical guide to utilizing Promises. We will take all
         of the concepts we learned so far and examine the variety of
         asynchronous behavior they allows us to model.
