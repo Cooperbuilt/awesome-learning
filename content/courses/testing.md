@@ -3,7 +3,7 @@ title: Testing
 template: "post"
 draft: false
 slug: "/courses/Testing/"
-category: "Async JS"
+category: "Automated Testing"
 tags:
   - "Jest"
 description: "Welcome to the Automated Testing course. Over the upcoming weeks you will dive into 
