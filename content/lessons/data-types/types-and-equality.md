@@ -18,12 +18,15 @@ We will also learn the important differences between
 _Primitive_ and _Object_ types and how type coercion works."
 exerciseLinks: https://codesandbox.io/s/y3y2jnkl6j?fontsize=14&module=%2Fsrc%2Fexercises%2F1-types.test.js&previewwindow=tests 
 timeToCompletion: "1-3 hours"
-videoLink: "youtube.com"
+videoLink: "https://www.youtube.com/embed/kVOmc7NK1M0"
+preReadQuizLink: https://docs.google.com/forms/d/e/1FAIpQLSc2kysfdkDnQzzn-wipQ79-HTt65TSLlroq6s83AyF3hlWbUg/viewform
 readingLinks: 
-  - link: "www.google.com"
+  - link: "https://www.google.com"
     description: "this is google.com"
+    title: "google title"
   - link: "www.amazon.com"
     description: "this is amazon man"
+    title: "this is the title"
 ---
 
 

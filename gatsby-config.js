@@ -82,9 +82,11 @@ module.exports = {
                         exerciseLinks 
                         timeToCompletion
                         videoLink,
+                        preReadQuizLink
                         readingLinks {
                           link
                           description
+                          title
                         }
                       }
                     }

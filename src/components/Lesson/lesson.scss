@@ -2,23 +2,59 @@
 @import '../../assets/scss/mixins';
 
 .Lesson {
+  padding: 0 15px;
+  margin: 0 auto;
+
+  &-title {
+    font-size: $typographic-base-font-size * 2;
+    max-width: $layout-post-width;
+    font-weight: 600;
+    @include line-height(1.65);
+    @include margin-top(1);
+    @include margin-bottom(0)
+  }
+
+  &-body {
+    & figure {
+      @include margin-bottom(1);
+
+      & blockquote {
+        font-style: italic;
+        text-align: center;
+        margin-top: 0;
+        @include padding(1, 0);
+
+        & p {
+          font-size: $typographic-base-font-size * 1.6817;
+          margin-top: 0;
+          @include margin-bottom(1);
+          @include line-height(1.5)
+        }
+
+      }
+
+    }
+
+    & a {
+      text-decoration: underline
+    }
+
+    & img {
+      max-width: 100%;
+    }
+
+  }
+
   &-time {
     font-weight: 800
   }
   &-homeButton {
     display: block;
-    max-width: 90px;
     height: $button-height;
-    padding: 0 24px;
     line-height: $button-height;
-    text-align: center;
     color: $color-base;
-    border: 1px solid $color-gray-border;
-    border-radius: $button-border-radius;
     font-size: $typographic-base-font-size;
     font-weight: normal;
-    margin-left: auto;
-    margin-right: auto;
     @include margin-top(1);
 
     &:hover,
@@ -30,14 +66,3 @@
 
 }
 
-@include breakpoint-md {
-  .Lesson {
-    &-homeButton {
-      position: fixed;
-      max-width: auto;
-      margin: 0;
-      top: 30px;
-      left: 30px
-    }
-  }
-}
