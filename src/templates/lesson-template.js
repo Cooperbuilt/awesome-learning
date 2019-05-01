@@ -48,6 +48,7 @@ export const query = graphql`
       }
       frontmatter {  
         description
+        course
         tags
         title
         exerciseLinks 

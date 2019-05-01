@@ -3,10 +3,10 @@ title:
 template: lesson
 draft: false
 slug: /courses/Array-Methods/filter-&-map
-category: Array Methods
+course: Array-Methods
 tags:
   - Refactoring
-description: "`filter` creates a new array with elements that fall under a given criteria from an existing array. `map` creates a new array with the results of calling a provided function on every element in the calling array. By the end of this session, you will know how to write functional array iterations using `map` and `filter` that will allow you to create new, curated arrays."
+description: filter creates a new array with elements that fall under a given criteria from an existing array. `map` creates a new array with the results of calling a provided function on every element in the calling array. By the end of this session, you will know how to write functional array iterations using `map` and `filter` that will allow you to create new, curated arrays.
 exerciseLinks: https://codepen.io/WayfairFrontend/pen/effa7a9f008a041d55f5f65d6d209c77
 timeToCompletion: ~1 hour
 videoLink: https://www.youtube.com/embed/YtHHvQ6zlTw?rel=0&amp;showinfo=0&amp;start=44

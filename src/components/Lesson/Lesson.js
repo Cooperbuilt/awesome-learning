@@ -10,13 +10,13 @@ const Lesson = ({ lesson }) => {
     timeToCompletion,
     videoLink,
     readingLinks,
-    preReadQuizLink
+    preReadQuizLink,
+    course
   } = lesson.frontmatter;
-
   return (
     <div className="Lesson">
-      <Link className="Lesson-homeButton" to="/courses/Data-Types/">
-       Back to Data Types
+      <Link className="Lesson-homeButton" to={`/courses/${course}/`}>
+       Back to {course}
       </Link>
       <h2 className="Lesson-title">{title}</h2>
       <div className="Lesson-body">

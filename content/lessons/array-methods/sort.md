@@ -3,7 +3,7 @@ title: Sort (bonus lesson)
 template: lesson
 draft: false
 slug: /courses/Array-Methods/sort
-category: Array Methods
+course: Array-Methods
 tags:
   - Array Methods
   - Functional Programming

@@ -81,8 +81,9 @@ module.exports = {
                         description
                         exerciseLinks 
                         timeToCompletion
-                        videoLink,
+                        videoLink
                         preReadQuizLink
+                        course
                         readingLinks {
                           link
                           description

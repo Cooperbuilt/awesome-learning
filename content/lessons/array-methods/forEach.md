@@ -3,7 +3,7 @@ title: forEach
 template: lesson
 draft: false
 slug: /courses/Array-Methods/forEach
-category: Array Methods
+course: Array-Methods
 tags:
   - Refactoring
 description: In this lesson you will be introduced to the most basic array method which iterates over an entire list - `forEach`. By the end of the lesson, you should be comfortable with thinking about writing methods which operate on an entire list of items, one item at a time.
