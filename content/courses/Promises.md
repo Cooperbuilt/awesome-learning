@@ -14,14 +14,14 @@ description: "Asynchronous programming patterns are the cornerstone of Frontend.
 ---
 
 ## lessons
-1.  [Intro to Promises](Session-1-Intro-to-Promises)
+1.  [Intro to Promises](intro-to-promises)
 
     -   We will go beyond the callback pattern in this session and see
         first-hand why Promises exist in JavaScript and what problems they
         solve. We will piggy-back on the previous session and convert some tough
         to deal with callbacks to Promises.
 
-2.  [Advanced Promises](Session-2-Advanced-Promises)
+2.  [Advanced Promises](advanced-promises)
 
     -   This session is a practical guide to utilizing Promises. We will take all
         of the concepts we learned so far and examine the variety of

@@ -9,7 +9,8 @@ tags:
 description: filter creates a new array with elements that fall under a given criteria from an existing array. `map` creates a new array with the results of calling a provided function on every element in the calling array. By the end of this session, you will know how to write functional array iterations using `map` and `filter` that will allow you to create new, curated arrays.
 exerciseLinks: https://codepen.io/WayfairFrontend/pen/effa7a9f008a041d55f5f65d6d209c77
 timeToCompletion: ~1 hour
-videoLink: https://www.youtube.com/embed/YtHHvQ6zlTw?rel=0&amp;showinfo=0&amp;start=44
+videoLinks: 
+  - https://www.youtube.com/embed/YtHHvQ6zlTw?rel=0&amp;showinfo=0&amp;start=44
 preReadQuizLink: https://docs.google.com/forms/d/e/1FAIpQLSe2RB_K_BmyhJhmNLrDUjIqfCfbv8uJ2jXBeyF9Fbkc5FqS0A/viewform
 readingLinks:
   - link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter

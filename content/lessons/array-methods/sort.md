@@ -11,7 +11,8 @@ description: By the end of this session you will learn how to utilize sort() to 
 
 exerciseLinks: https://codepen.io/WayfairFrontend/pen/e1f89086ba4848085b5bca091261e741 
 timeToCompletion: ~1 hour
-videoLink: https://www.youtube.com/embed/OEBEMu_HN_w?rel=0&amp;showinfo=0
+videoLinks: 
+ - https://www.youtube.com/embed/OEBEMu_HN_w?rel=0&amp;showinfo=0
 preReadQuizLink: https://docs.google.com/forms/d/e/1FAIpQLSc_7vgoCMh_fP4epgATRlqLT8H-3C5GDhK6E5RZw-1NicKaDg/viewform
 readingLinks: 
   - link: https://www.sitepoint.com/sophisticated-sorting-in-javascript/

@@ -16,7 +16,7 @@ description: "The focus of this course is to make you familiar with the nuance o
 
 ## Sessions
 
-1. [Session 1 Types and Equality](Types-And-Equality)
+1. [Session 1 Types and Equality](types-and-equality)
 
     -   Engineers familiar with strictly typed languages like (C++/Java) may
         find the lack of types in JavaScript shocking. But that is only true on
@@ -31,7 +31,7 @@ description: "The focus of this course is to make you familiar with the nuance o
         put everything we learned so far into practice and see how value
         equality is determined in JavaScript.
 
-2.  [Session 2 Objects](Objects)
+2.  [Session 2 Objects](objects)
 
     -   "In JavaScript, **almost** everything is an object" is the phrase which
         will be the topic of conversation. In this session, we will learn what

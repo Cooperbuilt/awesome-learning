@@ -53,7 +53,7 @@ export const query = graphql`
         title
         exerciseLinks 
         timeToCompletion
-        videoLink,
+        videoLinks,
         preReadQuizLink
         readingLinks {
           link 

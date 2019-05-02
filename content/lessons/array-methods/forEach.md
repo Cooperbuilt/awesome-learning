@@ -9,7 +9,8 @@ tags:
 description: In this lesson you will be introduced to the most basic array method which iterates over an entire list - `forEach`. By the end of the lesson, you should be comfortable with thinking about writing methods which operate on an entire list of items, one item at a time.
 exerciseLinks: https://codepen.io/WayfairFrontend/pen/25fc4221df9fc7406f4c0601464d69f1
 timeToCompletion: ~1 hour
-videoLink: https://www.youtube.com/embed/159EAISAxwg?rel=0&amp;showinfo=0
+videoLinks: 
+ - https://www.youtube.com/embed/159EAISAxwg?rel=0&amp;showinfo=0
 preReadQuizLink: https://docs.google.com/forms/d/e/1FAIpQLSc-H0McASacovyOZcvSqa-Zp1C9rGivm4cGIQM6yYNqeROwGw/viewform
 readingLinks: 
   - link: The MDN docs on forEach
