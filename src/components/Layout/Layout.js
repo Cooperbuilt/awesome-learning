@@ -1,9 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import styles from './Layout.module.scss';
+import './Layout.scss';
 
 const Layout = ({ children, title, description }) => (
-  <div className={styles.layout}>
+  <div className="Layout">
     <Helmet>
       <html lang="en" />
       <title>{title}</title>
