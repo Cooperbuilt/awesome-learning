@@ -1,20 +1,20 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
-.post {
-  &__footer {
+.Post {
+  &-footer {
     max-width: $layout-post-width;
     margin: 0 auto;
     padding: 0 15px;
   }
 
-  &__comments {
+  &-comments {
     max-width: $layout-post-width;
     margin: 0 auto;
     padding: 0 15px;
   }
 
-  &__home-button {
+  &-home-button {
     display: block;
     max-width: 90px;
     height: $button-height;
