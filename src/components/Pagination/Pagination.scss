@@ -1,12 +1,12 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
-.pagination {
+.Pagination {
   @include margin-top(2);
   display: flex;
-
-  &__prev {
-    width: 50%;
+  &-prev {
+    justify-content: flex-start;
+    width: 100%;
     text-align: left;
 
     &-link {
@@ -19,17 +19,13 @@
         color: $color-primary;
       }
 
-      &--disable {
-        pointer-events: none;
-        color: lighten($color-gray, 20%);
-      }
-
     }
 
   }
 
-  &__next {
-    width: 50%;
+  &-next {
+    justify-content: flex-end;
+    width: 100%;
     text-align: right;
 
     &-link {
@@ -41,12 +37,6 @@
       &:focus {
         color: $color-primary;
       }
-
-      &--disable {
-        pointer-events: none;
-        color: lighten($color-gray, 20%);
-      }
-
     }
 
   }
