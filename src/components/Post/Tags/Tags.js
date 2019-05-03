@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import styles from './Tags.module.scss';
+import './Tags.scss';
 
 const Tags = ({ tags, tagSlugs }) => (
-  <div className={styles['tags']}>
-    <ul className={styles['tags__list']}>
+  <div className="Tags">
+    <ul className="Tags-list">
       {tagSlugs.map((slug, i) => (
-        <li className={styles['tags__list-item']} key={tags[i]}>
-          <Link to={slug} className={styles['tags__list-item-link']}>
+        <li className="Tags-list-item" key={tags[i]}>
+          <Link to={slug} className="Tags-list-item-link">
             {tags[i]}
           </Link>
         </li>
