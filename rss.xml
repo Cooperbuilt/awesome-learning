@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Awesome Learning]]></title><description><![CDATA[Learning frontend, together]]></description><link>www.awesomelearning.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 03 May 2019 20:34:24 GMT</lastBuildDate><item><title><![CDATA[Data Types]]></title><description><![CDATA[The focus of this course is to make you familiar with the nuance of the JavaScript Data Types. A little hazy on passing objects by reference? Not sure why your number is coercing to a string? Not sure what coercion is? Then this is the topic for you. Feel at home with the data types and how to make them do what you want by the end of this course]]></description><link>www.awesomelearning.com/courses/Data-Types/</link><guid isPermaLink="false">www.awesomelearning.com/courses/Data-Types/</guid><content:encoded>&lt;h2 id=&quot;sessions&quot;&gt;&lt;a href=&quot;#sessions&quot; aria-label=&quot;sessions permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sessions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;types-and-equality&quot;&gt;Session 1 Types and Equality&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Engineers familiar with strictly typed languages like (C++/Java) may
+find the lack of types in JavaScript shocking. But that is only true on
+the surface, the truth is that JavaScript has several types.
+Understanding how they interact together, what they &lt;em&gt;mean&lt;/em&gt; will help
+clear up common misconceptions and make JavaScript seem much more
+predictable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type safety is a popular topic in modern JavaScript Applications. A
+solid foundation of types in the language opens a door to exploring what
+“type coercion” is, why it exists and how to avoid it entirely. We will
+put everything we learned so far into practice and see how value
+equality is determined in JavaScript.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;objects&quot;&gt;Session 2 Objects&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“In JavaScript, &lt;strong&gt;almost&lt;/strong&gt; everything is an object” is the phrase which
+will be the topic of conversation. In this session, we will learn what
+this means and how to put this new found knowledge into practice.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Array Methods]]></title><description><![CDATA[Welcome to the Awesome Learning Array Methods course. Over the next 5 lessons, you will deep dive into the 4 most commonly used array methods.]]></description><link>www.awesomelearning.com/courses/Array-Methods/</link><guid isPermaLink="false">www.awesomelearning.com/courses/Array-Methods/</guid><content:encoded>&lt;h2 id=&quot;sessions&quot;&gt;&lt;a href=&quot;#sessions&quot; aria-label=&quot;sessions permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sessions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Session 1. &lt;a href=&quot;forEach&quot;&gt;forEach&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn how to replace &lt;code class=&quot;language-text&quot;&gt;for&lt;/code&gt; loops with &lt;code class=&quot;language-text&quot;&gt;forEach&lt;/code&gt; in many use-cases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Session 2. &lt;a href=&quot;filter-&amp;#x26;-map&quot;&gt;map and filter&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn how to make non-mutating array manipulations with &lt;code class=&quot;language-text&quot;&gt;map&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;filter&lt;/code&gt;.
+&lt;code class=&quot;language-text&quot;&gt;map&lt;/code&gt; is a new functional approach to array iteration that returns a new
+array, and filter gives you the power to create new arrays out of
+elements that meet your criteria.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Session 3. &lt;a href=&quot;reduce&quot;&gt;reduce&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn the array method that can create new arrays, objects, arrays of
+objects, single values, anything. It’s one of our most powerful
+functional array methods.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Session 4. &lt;a href=&quot;advanced-reduce&quot;&gt;advanced reduce&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep-dive into &lt;code class=&quot;language-text&quot;&gt;reduce&lt;/code&gt; with a challenging exercise set meant to push the
+boundaries of what reduce can do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bonus Session. &lt;a href=&quot;sort&quot;&gt;sort&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For the curious, learn how to sort complex data sets based on
+user-defined callbacks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Functions and Scope]]></title><description><![CDATA[If you want to learn about JavaScript functions, then this is the course for you. Did you know that everything is a function? No? How about binding functions to Objects? Closures? Learn the digestible rules of arrow functions and when to use them best. What the heck is a this anyway? Become familiar with scope and context in JavaScript and use them to your advantage. By the end of this course, you will become familiar with all of these topics and more.]]></description><link>www.awesomelearning.com/courses/Functions-and-Scope/</link><guid isPermaLink="false">www.awesomelearning.com/courses/Functions-and-Scope/</guid><content:encoded>&lt;h2 id=&quot;sessions&quot;&gt;&lt;a href=&quot;#sessions&quot; aria-label=&quot;sessions permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sessions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;context-&amp;#x26;-arrows&quot;&gt;Function Context and Arrow Functions&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn what context &lt;em&gt;is&lt;/em&gt; in JavaScript, the &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt; keyword and how usage
+of Arrow functions impacts it. Build the confidence you will need to
+read and reason about modern JavaScript. Be able to explain context to
+&lt;em&gt;others&lt;/em&gt; like an expert.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;scope&quot;&gt;Scope&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dive in head first into semantics of &lt;em&gt;scope&lt;/em&gt;, compare and contrast it
+with context and build the confidence you need to understand one of the
+most fundamental concepts in JavaScript.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;closures&quot;&gt;Closures&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Closures are on the short-list of &lt;em&gt;the killer features of JavaScript&lt;/em&gt;.
+This session will equip you with this tool for your journey onto
+JavaScript expert mastery. Building on the previous sessions, this set
+of intuitive exercises will teach you how to “think with closures”.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Testing]]></title><description><![CDATA[Welcome to the Automated Testing course. Over the upcoming weeks you will dive into  frontend testing using Jest and eventually Enzyme. By the end of this track you will know how  to test user interfaces, as well as user interactions.]]></description><link>www.awesomelearning.com/courses/Testing/</link><guid isPermaLink="false">www.awesomelearning.com/courses/Testing/</guid><content:encoded>&lt;h2 id=&quot;sessions&quot;&gt;&lt;a href=&quot;#sessions&quot; aria-label=&quot;sessions permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sessions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;intro-to-unit-testing&quot;&gt;Introduction to Unit Testing&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn the basics of unit tests in Javascript. This session will show you how to
+write assertions, help you test basic JS functions, and show you why tests can be so helpful. &lt;strong&gt;By the end of this session you
+will be able to write a unit test for a vanilla JS function.&lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;component-testing&quot;&gt;Component testing with Enzyme&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This session will show you the basics of testing User Interfaces. You will start with Jest only, learning
+the difference between React Components and Elements. From there, you will add in Enzyme to test component instances and their many variations. &lt;strong&gt;By the end of this session you will be able to write a Jest/Enzyme test for a React component.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Promises]]></title><description><![CDATA[Asynchronous programming patterns are the cornerstone of Frontend. All of the interactive interfaces we build on the web would not be possible without the asynchronous features of JavaScript. This course will teach you the crucial nuance when utilizing these patterns and will heavily focus on Promises]]></description><link>www.awesomelearning.com/courses/Promises/</link><guid isPermaLink="false">www.awesomelearning.com/courses/Promises/</guid><content:encoded>&lt;h2 id=&quot;lessons&quot;&gt;&lt;a href=&quot;#lessons&quot; aria-label=&quot;lessons permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;lessons&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;intro-to-promises&quot;&gt;Intro to Promises&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We will go beyond the callback pattern in this session and see
+first-hand why Promises exist in JavaScript and what problems they
+solve. We will piggy-back on the previous session and convert some tough
+to deal with callbacks to Promises.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;advanced-promises&quot;&gt;Advanced Promises&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This session is a practical guide to utilizing Promises. We will take all
+of the concepts we learned so far and examine the variety of
+asynchronous behavior they allows us to model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item></channel></rss>
