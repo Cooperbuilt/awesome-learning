@@ -3,10 +3,10 @@ import { Link } from "gatsby";
 import "./Author.scss";
 
 const Author = ({ author, isIndex }) => (
-  <div className="author">
+  <div className="Author">
     <Link to="/">
       <svg
-        class="author-icon"
+        className="Author-icon"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 44.9 44.9"
       >
@@ -18,19 +18,19 @@ const Author = ({ author, isIndex }) => (
     </Link>
 
     {isIndex ? (
-      <h1 className="author-title">
-        <Link className="author-title--link" to="/">
+      <h1 className="Author-title">
+        <Link className="Author-title--link" to="/">
           {author.name}
         </Link>
       </h1>
     ) : (
-      <h2 className="author-title">
-        <Link className="author-title--link" to="/">
+      <h2 className="Author-title">
+        <Link className="Author-title--link" to="/">
           {author.name}
         </Link>
       </h2>
     )}
-    <p className="author-subtitle">{author.description}</p>
+    <p className="Author-subtitle">{author.description}</p>
   </div>
 );
 
