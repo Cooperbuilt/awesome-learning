@@ -1,10 +1,10 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
 
-.menu {
+.Menu {
   @include margin-bottom(1);
 
-  &__list {
+  &-list {
     list-style: none;
     padding: 0;
     margin: 0;
