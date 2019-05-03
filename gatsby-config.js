@@ -66,7 +66,7 @@ module.exports = {
               {
                 allMarkdownRemark(
                   limit: 1000,
-                  filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+                  filter: { frontmatter: { template: { eq: "course" }, draft: { ne: true } } }
                 ) {
                   edges {
                     node {

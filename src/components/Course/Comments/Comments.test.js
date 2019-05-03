@@ -13,8 +13,8 @@ describe('Comments', () => {
           }
         }
       },
-      postTitle: 'test',
-      postSlug: '/test'
+      courseTitle: 'test',
+      courseSlug: '/test'
     };
 
     const tree = renderer.create(<Comments {...props} />).toJSON();

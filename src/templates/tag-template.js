@@ -22,7 +22,7 @@ const TagTemplate = ({ data, pageContext }) => {
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `All Posts tagged as "${tag}" - Page ${currentPage} - ${siteTitle}` : `All Posts tagged as "${tag}" - ${siteTitle}`;
+  const pageTitle = currentPage > 0 ? `All Courses tagged as "${tag}" - Page ${currentPage} - ${siteTitle}` : `All Courses tagged as "${tag}" - ${siteTitle}`;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
@@ -41,7 +41,7 @@ const TagTemplate = ({ data, pageContext }) => {
 };
 // sort: { order: DESC, fields: [frontmatter___date] }
 export const query = graphql`
-  query TagPage($tag: String, $postsLimit: Int!, $postsOffset: Int!) {
+  query TagPage($tag: String, $coursesLimit: Int!, $coursesOffset: Int!) {
     site {
       siteMetadata {
         title
@@ -49,9 +49,9 @@ export const query = graphql`
       }
     }
     allMarkdownRemark(
-        limit: $postsLimit,
-        skip: $postsOffset,
-        filter: { frontmatter: { tags: { in: [$tag] }, template: { eq: "post" }, draft: { ne: true } } },
+        limit: $coursesLimit,
+        skip: $coursesOffset,
+        filter: { frontmatter: { tags: { in: [$tag] }, template: { eq: "course" }, draft: { ne: true } } },
         
       ){
       edges {

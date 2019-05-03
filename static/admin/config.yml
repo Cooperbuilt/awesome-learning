@@ -6,13 +6,13 @@ media_folder: "static/media"
 public_folder: "/media"
 
 collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "content/posts"
+  - name: "courses"
+    label: "Courses"
+    folder: "content/courses"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template", name: "template", widget: "hidden", default: "post"}
+      - {label: "Template", name: "template", widget: "hidden", default: "course"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}

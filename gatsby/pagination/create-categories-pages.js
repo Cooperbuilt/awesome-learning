@@ -6,12 +6,12 @@ const siteConfig = require('../../config.js');
 
 module.exports = async (graphql, actions) => {
   const { createPage } = actions;
-  const { postsPerPage } = siteConfig;
+  const { coursesPerPage } = siteConfig;
 
   const result = await graphql(`
     {
       allMarkdownRemark(
-        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+        filter: { frontmatter: { template: { eq: "course" }, draft: { ne: true } } }
       ) {
         group(field: frontmatter___category) {
           fieldValue
@@ -22,7 +22,7 @@ module.exports = async (graphql, actions) => {
   `);
 
   _.each(result.data.allMarkdownRemark.group, (category) => {
-    const numPages = Math.ceil(category.totalCount / postsPerPage);
+    const numPages = Math.ceil(category.totalCount / coursesPerPage);
     const categorySlug = `/category/${_.kebabCase(category.fieldValue)}`;
 
     for (let i = 0; i < numPages; i += 1) {
@@ -32,8 +32,8 @@ module.exports = async (graphql, actions) => {
         context: {
           category: category.fieldValue,
           currentPage: i,
-          postsLimit: postsPerPage,
-          postsOffset: i * postsPerPage,
+          coursesLimit: coursesPerPage,
+          coursesOffset: i * coursesPerPage,
           prevPagePath: i <= 1 ? categorySlug : `${categorySlug}/page/${i - 1}`,
           nextPagePath: `/${categorySlug}/page/${i + 1}`,
           hasPrevPage: i !== 0,

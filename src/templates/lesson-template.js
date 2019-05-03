@@ -11,10 +11,10 @@ const LessonTemplate = ({ data }) => {
 
   const {
     title: lessonTitle,
-    description: postDescription
+    description: courseDescription
   } = data.markdownRemark.frontmatter;
 
-  const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
+  const metaDescription = courseDescription !== null ? courseDescription : siteSubtitle;
 
   return (
     <Layout title={`${lessonTitle} - ${siteTitle}`} description={metaDescription}>

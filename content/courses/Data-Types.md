@@ -1,6 +1,6 @@
 ---
 title: Data Types
-template: "post"
+template: "course"
 draft: false
 slug: "/courses/Data-Types/"
 category: "JS Fundamentals"

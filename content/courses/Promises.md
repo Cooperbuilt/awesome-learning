@@ -1,6 +1,6 @@
 ---
 title: Promises
-template: "post"
+template: "course"
 draft: false
 slug: "/courses/Promises/"
 category: "Async JS"

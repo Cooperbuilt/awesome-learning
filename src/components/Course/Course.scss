@@ -1,15 +1,15 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins';
 
-.Post {
+.Course {
   &-footer {
-    max-width: $layout-post-width;
+    max-width: $layout-course-width;
     margin: 0 auto;
     padding: 0 15px;
   }
 
   &-comments {
-    max-width: $layout-post-width;
+    max-width: $layout-course-width;
     margin: 0 auto;
     padding: 0 15px;
   }
@@ -38,16 +38,16 @@
 }
 
 @include breakpoint-md {
-  .post {
-    &__footer {
+  .course {
+    &-footer {
       padding: 0;
     }
 
-    &__comments {
+    &-comments {
       padding: 0;
     }
 
-    &__home-button {
+    &-home-button {
       position: fixed;
       max-width: auto;
       margin: 0;

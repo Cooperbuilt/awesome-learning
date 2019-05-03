@@ -90,7 +90,7 @@ $ npm run serve
 ```
 └── content
     ├── pages
-    └── posts
+    └── courses
 └── static
     ├── admin
     └── media
@@ -107,7 +107,7 @@ $ npm run serve
     │   ├── Layout
     │   ├── Page
     │   ├── Pagination
-    │   ├── Post
+    │   ├── Course
     │   │   ├── Author
     │   │   ├── Comments
     │   │   ├── Content

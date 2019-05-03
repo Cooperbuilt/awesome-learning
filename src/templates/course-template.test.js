@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import PostTemplate from './post-template';
+import CourseTemplate from './course-template';
 
-describe('PostTemplate', () => {
+describe('CourseTemplate', () => {
   const props = {
     data: {
       site: {
@@ -33,7 +33,7 @@ describe('PostTemplate', () => {
   };
 
   it('renders correctly', () => {
-    const tree = renderer.create(<PostTemplate {...props} />).toJSON();
+    const tree = renderer.create(<CourseTemplate {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

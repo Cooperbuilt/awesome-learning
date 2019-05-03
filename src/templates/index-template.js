@@ -27,7 +27,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
+  const pageTitle = currentPage > 0 ? `Courses - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
@@ -46,7 +46,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 };
 
 export const query = graphql`
-  query IndexTemplate($postsLimit: Int!, $postsOffset: Int!) {
+  query IndexTemplate($coursesLimit: Int!, $coursesOffset: Int!) {
     site {
       siteMetadata {
         title
@@ -54,9 +54,9 @@ export const query = graphql`
       }
     }
     allMarkdownRemark(
-        limit: $postsLimit,
-        skip: $postsOffset,
-        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } },
+        limit: $coursesLimit,
+        skip: $coursesOffset,
+        filter: { frontmatter: { template: { eq: "course" }, draft: { ne: true } } },
       ){
       edges {
         node {

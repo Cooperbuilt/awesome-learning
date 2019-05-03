@@ -1,6 +1,6 @@
 ---
 title: Array Methods
-template: "post"
+template: "course"
 draft: false
 slug: "/courses/Array-Methods/"
 category: "JS Fundamentals"

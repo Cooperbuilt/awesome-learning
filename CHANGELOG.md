@@ -30,4 +30,4 @@ All notable changes to this project will be documented in this file.
 - [Pull #54](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/54): Improve RSS channel defaults
 - [Pull #51](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/51): Decouple the node side code and the browser side code
 - [Pull #50](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/50): Fixed two typos.
-- [Pull #49](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/49): Fix twitter link in post details
+- [Pull #49](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/49): Fix twitter link in course details

@@ -1,6 +1,6 @@
 ---
 title: Testing
-template: "post"
+template: "course"
 draft: false
 slug: "/courses/Testing/"
 category: "Automated Testing"

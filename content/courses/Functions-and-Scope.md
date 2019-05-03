@@ -1,6 +1,6 @@
 ---
 title: Functions and Scope
-template: "post"
+template: "course"
 draft: false
 slug: "/courses/Functions-and-Scope/"
 category: "JS Fundamentals"
