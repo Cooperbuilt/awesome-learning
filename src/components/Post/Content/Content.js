@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './Content.module.scss';
+import './Content.scss';
 
 const Content = ({ body, title }) => (
-  <div className={styles['content']}>
-    <h1 className={styles['content__title']}>{title}</h1>
-    <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: body }} />
+  <div className="Content">
+    <h1 className="Content-title">{title}</h1>
+    <div className="Content-body" dangerouslySetInnerHTML={{ __html: body }} />
   </div>
 );
 

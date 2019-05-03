@@ -1,12 +1,12 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
 
-.content {
+.Content {
   max-width: $layout-post-single-width;
   padding: 0 15px;
   margin: 0 auto;
 
-  &__title {
+  &-title {
     font-size: $typographic-base-font-size * 2;
     max-width: $layout-post-width;
     margin-left: auto;
@@ -18,7 +18,7 @@
     @include margin-bottom(0)
   }
 
-  &__body {
+  &-body {
     & figure {
       @include margin-bottom(1);
 
@@ -59,17 +59,17 @@
 }
 
 @include breakpoint-md {
-  .content {
+  .Content {
     padding: 0;
 
-    &__title {
+    &-title {
       font-size: $typographic-base-font-size * 3;
       @include line-height(2.25);
       @include margin-top(2.25);
       @include margin-bottom(1.5)
     }
 
-    &__body {
+    &-body {
       font-size: $typographic-base-font-size * 1.125;
       @include line-height(1.125);
       @include margin-bottom(1.125);
